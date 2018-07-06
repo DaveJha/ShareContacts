@@ -110,12 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				CBE162E720CC8931002B0C26 /* MessagesViewController.swift */,
+				CBE162FE20D043C9002B0C26 /* AddMessageViewController.swift */,
+				CBE1630020D043FD002B0C26 /* MessageDetailsViewController.swift */,
 				CBE162E920CC8931002B0C26 /* MainInterface.storyboard */,
 				CBE162EC20CC8931002B0C26 /* Assets.xcassets */,
 				CBE162EE20CC8931002B0C26 /* Info.plist */,
-				CBE162FE20D043C9002B0C26 /* AddMessageViewController.swift */,
 				CBE1630220D20ABA002B0C26 /* testImg.jpg */,
-				CBE1630020D043FD002B0C26 /* MessageDetailsViewController.swift */,
 			);
 			path = "ShareContacts MessagesExtension";
 			sourceTree = "<group>";
