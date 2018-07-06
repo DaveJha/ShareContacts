@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8BC53620D8B70600AE497F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE162EC20CC8931002B0C26 /* Assets.xcassets */; };
+		CBE162D920CC8931002B0C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE162D820CC8931002B0C26 /* Assets.xcassets */; };
+		CBE162E020CC8931002B0C26 /* ShareContacts MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBE162DF20CC8931002B0C26 /* ShareContacts MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBE162E520CC8931002B0C26 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE162E420CC8931002B0C26 /* Messages.framework */; };
+		CBE162E820CC8931002B0C26 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE162E720CC8931002B0C26 /* MessagesViewController.swift */; };
+		CBE162EB20CC8931002B0C26 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE162E920CC8931002B0C26 /* MainInterface.storyboard */; };
+		CBE162ED20CC8931002B0C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE162EC20CC8931002B0C26 /* Assets.xcassets */; };
+		CBE162FF20D043C9002B0C26 /* AddMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE162FE20D043C9002B0C26 /* AddMessageViewController.swift */; };
+		CBE1630120D043FD002B0C26 /* MessageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE1630020D043FD002B0C26 /* MessageDetailsViewController.swift */; };
+		CBE1630320D20ABA002B0C26 /* testImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE1630220D20ABA002B0C26 /* testImg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBE162E120CC8931002B0C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE162CF20CC8931002B0C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE162DE20CC8931002B0C26;
+			remoteInfo = "ShareContacts MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBE162F420CC8931002B0C26 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CBE162E020CC8931002B0C26 /* ShareContacts MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBE162D520CC8931002B0C26 /* ShareContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE162D820CC8931002B0C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE162DA20CC8931002B0C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE162DF20CC8931002B0C26 /* ShareContacts MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ShareContacts MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE162E420CC8931002B0C26 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		CBE162E720CC8931002B0C26 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		CBE162EA20CC8931002B0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CBE162EC20CC8931002B0C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE162EE20CC8931002B0C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE162FE20D043C9002B0C26 /* AddMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMessageViewController.swift; sourceTree = "<group>"; };
+		CBE1630020D043FD002B0C26 /* MessageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailsViewController.swift; sourceTree = "<group>"; };
+		CBE1630220D20ABA002B0C26 /* testImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE162DC20CC8931002B0C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE162E520CC8931002B0C26 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBE162CE20CC8931002B0C26 = {
+			isa = PBXGroup;
+			children = (
+				CBE162D720CC8931002B0C26 /* ShareContacts */,
+				CBE162E620CC8931002B0C26 /* ShareContacts MessagesExtension */,
+				CBE162E320CC8931002B0C26 /* Frameworks */,
+				CBE162D620CC8931002B0C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE162D620CC8931002B0C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE162D520CC8931002B0C26 /* ShareContacts.app */,
+				CBE162DF20CC8931002B0C26 /* ShareContacts MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE162D720CC8931002B0C26 /* ShareContacts */ = {
+			isa = PBXGroup;
+			children = (
+				CBE162D820CC8931002B0C26 /* Assets.xcassets */,
+				CBE162DA20CC8931002B0C26 /* Info.plist */,
+			);
+			path = ShareContacts;
+			sourceTree = "<group>";
+		};
+		CBE162E320CC8931002B0C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBE162E420CC8931002B0C26 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBE162E620CC8931002B0C26 /* ShareContacts MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CBE162E720CC8931002B0C26 /* MessagesViewController.swift */,
+				CBE162E920CC8931002B0C26 /* MainInterface.storyboard */,
+				CBE162EC20CC8931002B0C26 /* Assets.xcassets */,
+				CBE162EE20CC8931002B0C26 /* Info.plist */,
+				CBE162FE20D043C9002B0C26 /* AddMessageViewController.swift */,
+				CBE1630220D20ABA002B0C26 /* testImg.jpg */,
+				CBE1630020D043FD002B0C26 /* MessageDetailsViewController.swift */,
+			);
+			path = "ShareContacts MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE162D420CC8931002B0C26 /* ShareContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE162F520CC8931002B0C26 /* Build configuration list for PBXNativeTarget "ShareContacts" */;
+			buildPhases = (
+				CBE162D320CC8931002B0C26 /* Resources */,
+				CBE162F420CC8931002B0C26 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE162E220CC8931002B0C26 /* PBXTargetDependency */,
+			);
+			name = ShareContacts;
+			productName = ShareContacts;
+			productReference = CBE162D520CC8931002B0C26 /* ShareContacts.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		CBE162DE20CC8931002B0C26 /* ShareContacts MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE162F120CC8931002B0C26 /* Build configuration list for PBXNativeTarget "ShareContacts MessagesExtension" */;
+			buildPhases = (
+				CBE162DB20CC8931002B0C26 /* Sources */,
+				CBE162DC20CC8931002B0C26 /* Frameworks */,
+				CBE162DD20CC8931002B0C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShareContacts MessagesExtension";
+			productName = "ShareContacts MessagesExtension";
+			productReference = CBE162DF20CC8931002B0C26 /* ShareContacts MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE162CF20CC8931002B0C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dave Jha";
+				TargetAttributes = {
+					CBE162D420CC8931002B0C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CBE162DE20CC8931002B0C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBE162D220CC8931002B0C26 /* Build configuration list for PBXProject "ShareContacts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE162CE20CC8931002B0C26;
+			productRefGroup = CBE162D620CC8931002B0C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE162D420CC8931002B0C26 /* ShareContacts */,
+				CBE162DE20CC8931002B0C26 /* ShareContacts MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE162D320CC8931002B0C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8BC53620D8B70600AE497F /* Assets.xcassets in Resources */,
+				CBE162D920CC8931002B0C26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE162DD20CC8931002B0C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE1630320D20ABA002B0C26 /* testImg.jpg in Resources */,
+				CBE162ED20CC8931002B0C26 /* Assets.xcassets in Resources */,
+				CBE162EB20CC8931002B0C26 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE162DB20CC8931002B0C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE162FF20D043C9002B0C26 /* AddMessageViewController.swift in Sources */,
+				CBE1630120D043FD002B0C26 /* MessageDetailsViewController.swift in Sources */,
+				CBE162E820CC8931002B0C26 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBE162E220CC8931002B0C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE162DE20CC8931002B0C26 /* ShareContacts MessagesExtension */;
+			targetProxy = CBE162E120CC8931002B0C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBE162E920CC8931002B0C26 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE162EA20CC8931002B0C26 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE162EF20CC8931002B0C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE162F020CC8931002B0C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE162F220CC8931002B0C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJ3LT28A3;
+				INFOPLIST_FILE = "ShareContacts MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davejha.ShareContacts.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBE162F320CC8931002B0C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJ3LT28A3;
+				INFOPLIST_FILE = "ShareContacts MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davejha.ShareContacts.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBE162F620CC8931002B0C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7447DF9492;
+				INFOPLIST_FILE = ShareContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = davejha.ShareContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBE162F720CC8931002B0C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7447DF9492;
+				INFOPLIST_FILE = ShareContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = davejha.ShareContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE162D220CC8931002B0C26 /* Build configuration list for PBXProject "ShareContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE162EF20CC8931002B0C26 /* Debug */,
+				CBE162F020CC8931002B0C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE162F120CC8931002B0C26 /* Build configuration list for PBXNativeTarget "ShareContacts MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE162F220CC8931002B0C26 /* Debug */,
+				CBE162F320CC8931002B0C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE162F520CC8931002B0C26 /* Build configuration list for PBXNativeTarget "ShareContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE162F620CC8931002B0C26 /* Debug */,
+				CBE162F720CC8931002B0C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE162CF20CC8931002B0C26 /* Project object */;
+}
